@@ -1,6 +1,6 @@
 # lysenko_iryna-tp3-582_301
 <ol><li> <h3>États, niveaux et progression : </h3>
-  <ul><li>Quels sont les niveaux de cette version de ton jeu (au moins 3) ? </li>
+  <ul><li>Quels sont les niveaux de cette version de ton jeu (au moins 3)? </li>
     <li>Comment la difficulté va changer entre ces niveaux ? </li>
     <li>Quels nouveaux objets ou paramètres seront changés ?</li>
   </ul></li>
