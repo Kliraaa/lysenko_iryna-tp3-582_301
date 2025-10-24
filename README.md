@@ -17,3 +17,11 @@ La difficulté augmente avec plus d’obstacles, de pièges et d’actions à sy
 <li><h3> Intégration d’une interface graphique HUD («Head-Up Display») : </h3>
     Les éléments affichés : clé (si obtenue), barre de vie et messages temporaires (“Clé trouvée”, “Porte ouverte”).
     Ces informations sont permanentes ou apparaissent brièvement pour guider le joueur jusqu’à l’objectif.</li></ol>
+
+### Usefull links
+- https://cainos.itch.io/pixel-art-platformer-dungeon
+- https://ansimuz.itch.io/gothicvania-patreon-collection
+- https://anokolisa.itch.io/moon-graveyard
+- https://brullov.itch.io/oak-woods
+- https://alkakrab.itch.io/free-fantasy-medieval-ambient-music-pack
+- https://cainos.itch.io/pixel-art-platformer-village-props
