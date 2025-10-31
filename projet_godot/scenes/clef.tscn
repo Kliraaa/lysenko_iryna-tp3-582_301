@@ -1,8 +1,9 @@
-[gd_scene load_steps=34 format=3 uid="uid://bgsny6ap00hyc"]
+[gd_scene load_steps=38 format=3 uid="uid://bgsny6ap00hyc"]
 
 [ext_resource type="Script" uid="uid://c4kywp1htgj00" path="res://scripts/clef.gd" id="1_7nosy"]
 [ext_resource type="Texture2D" uid="uid://c3ig0wl17evfi" path="res://assets/medias/environnement/Key 7 - GREY - Spritesheet.png" id="1_q4fw2"]
 [ext_resource type="Script" uid="uid://cdgk1xghv8m5k" path="res://scripts/clef_animation.gd" id="3_dq4yw"]
+[ext_resource type="AudioStream" uid="uid://bkh1su0idqsib" path="res://assets/audio/inventory-grab.mp3" id="4_gy3gn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7nosy"]
 atlas = ExtResource("1_q4fw2")
@@ -211,18 +212,125 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dq4yw"]
 size = Vector2(20, 31)
 
+[sub_resource type="Animation" id="Animation_gy3gn"]
+resource_name = "pickup"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("clef_animation:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PickupSound:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(-0.333333),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/3/type = "method"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath(".")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1.13333),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_qyl10"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("clef_animation:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape2D:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PickupSound:playing")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vv7wd"]
+_data = {
+&"RESET": SubResource("Animation_qyl10"),
+&"pickup": SubResource("Animation_gy3gn")
+}
+
 [node name="clef" type="Area2D"]
 script = ExtResource("1_7nosy")
 
 [node name="clef_animation" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ffokq")
 autoplay = "default"
-frame_progress = 0.79192555
+frame_progress = 0.791926
 script = ExtResource("3_dq4yw")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 0.5)
 shape = SubResource("RectangleShape2D_dq4yw")
+
+[node name="PickupSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_gy3gn")
+volume_db = 4.952
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_vv7wd")
+}
 
 [connection signal="area_shape_entered" from="." to="." method="_on_area_shape_entered"]
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

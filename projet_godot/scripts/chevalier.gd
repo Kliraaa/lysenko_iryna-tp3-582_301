@@ -6,6 +6,10 @@ const JUMP_VELOCITY = -550.0
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var audio_stream_player_2d: AudioStreamPlayer2D = $AudioStreamPlayer2D
+@onready var death_sfx: AudioStreamPlayer = $death_sound
+
+
+var taking_damage = false
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -27,6 +31,10 @@ func _physics_process(delta: float) -> void:
 		animated_sprite.flip_h = true
 		
 	# ANIMATIONS 
+	if taking_damage: 
+		animated_sprite.play("death")
+		
+		return
 	if direction == 0:
 		animated_sprite.play("idle")
 		audio_stream_player_2d.stop()
@@ -55,3 +63,9 @@ func _physics_process(delta: float) -> void:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	move_and_slide()
+
+
+func take_damage(): 
+	taking_damage = true
+	death_sfx.play()
+	pass

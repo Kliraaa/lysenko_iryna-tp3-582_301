@@ -48,7 +48,7 @@ texture_region_size = Vector2i(128, 128)
 14:5/0 = 0
 14:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(63.2211, -62.6566, -64.35, -63.2211, -66.6079, 65.479, 63.7855, 64.9145)
 14:6/0 = 0
-14:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-36.1263, -63.7855, -64.35, -63.2211, -66.6079, 65.479, 63.7855, 64.9145)
+14:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-63.6364, -62.8099, -14.6005, 1.10193, 36.0882, 64.4628, -64.1873, 65.5647)
 7:1/0 = 0
 8:1/0 = 0
 9:1/0 = 0
@@ -374,7 +374,7 @@ distance = 2.0
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5he1u"]
 size = Vector2(602.344, 33.3333)
 
-[node name="main" type="Node2D"]
+[node name="niveau_interieur" type="Node2D"]
 
 [node name="Environnement" type="Node2D" parent="."]
 
@@ -552,7 +552,8 @@ position = Vector2(2080, -64)
 scale = Vector2(-1, 1)
 
 [node name="chevalier" parent="." groups=["player"] instance=ExtResource("7_o6xl0")]
-position = Vector2(98, 290)
+position = Vector2(114, 296)
+floor_max_angle = 1.213
 
 [node name="Camera2D" type="Camera2D" parent="chevalier"]
 position = Vector2(173.333, -18.6667)
