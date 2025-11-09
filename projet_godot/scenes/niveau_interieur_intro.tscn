@@ -23,7 +23,7 @@
 [ext_resource type="Script" uid="uid://coixt7moxny2" path="res://scripts/sword_2.gd" id="25_pxrel"]
 [ext_resource type="Texture2D" uid="uid://bqcd0xg6ftmpt" path="res://assets/medias/environnement/Decorations/curtain_blue_1.png" id="30_gtq6k"]
 [ext_resource type="PackedScene" uid="uid://cpbtahp82b2m8" path="res://scenes/chevalier.tscn" id="37_y0hj3"]
-[ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scenes/button.gd" id="38_6mfgn"]
+[ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="38_6mfgn"]
 [ext_resource type="PackedScene" uid="uid://cqfjewwe1ylh1" path="res://scenes/pause_menu.tscn" id="39_bjmfm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
