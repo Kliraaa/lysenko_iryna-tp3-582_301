@@ -1,33 +1,33 @@
 [gd_scene load_steps=32 format=4 uid="uid://dw3kbj3th7k65"]
 
-[ext_resource type="Texture2D" uid="uid://ovu87keidabw" path="res://assets/medias/environnement/main_tileset_4x.png" id="3_scfgh"]
-[ext_resource type="PackedScene" uid="uid://b1ck4v5rnkiws" path="res://scenes/epee.tscn" id="5_tbbbo"]
-[ext_resource type="Texture2D" uid="uid://dq63wepjsci21" path="res://assets/medias/environnement/Decorations/table_noshadow.png" id="7_vbpfl"]
-[ext_resource type="Texture2D" uid="uid://3drbi88230nm" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_1.png" id="9_ltad6"]
-[ext_resource type="Texture2D" uid="uid://tjl0qqhh1v6x" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_2.png" id="10_o2a4d"]
-[ext_resource type="Texture2D" uid="uid://daq4bcxyvhutr" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_3.png" id="11_ktyuc"]
-[ext_resource type="Texture2D" uid="uid://c5ytibrhejtu1" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_4.png" id="12_dfh3k"]
-[ext_resource type="Texture2D" uid="uid://bt6v7xcq5h57c" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_5.png" id="13_djyon"]
-[ext_resource type="Texture2D" uid="uid://bomxufy6bimlk" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_6.png" id="14_e6we5"]
-[ext_resource type="Texture2D" uid="uid://c4tn4e5jpyq4t" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_background.png" id="15_84y3w"]
-[ext_resource type="Texture2D" uid="uid://c8p3sp0nlxn2n" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_1.png" id="16_ds17h"]
-[ext_resource type="Texture2D" uid="uid://c457g1c8dd5l5" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_2.png" id="17_h2h81"]
-[ext_resource type="Texture2D" uid="uid://bs5elgi0sbw2o" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_3.png" id="18_2ye87"]
-[ext_resource type="Texture2D" uid="uid://c8jssgo4r2st0" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_4.png" id="19_o4q00"]
-[ext_resource type="Texture2D" uid="uid://0ljxjsrpbktd" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_5.png" id="20_po4x5"]
-[ext_resource type="Texture2D" uid="uid://c15nvppn5ij34" path="res://assets/medias/environnement/Decorations/door_open.png" id="21_4np73"]
-[ext_resource type="Texture2D" uid="uid://c1sjlbgtj5kpr" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_6.png" id="21_jmt45"]
-[ext_resource type="Texture2D" uid="uid://b3pmftdgsk7hy" path="res://assets/medias/environnement/Decorations/books.png" id="22_4ha8t"]
-[ext_resource type="Texture2D" uid="uid://chqr5kgcj26yp" path="res://assets/medias/environnement/Decorations/Animated Decorations/chest/chest_5.png" id="23_7w2fw"]
-[ext_resource type="Texture2D" uid="uid://bkqxi8my2gr3f" path="res://assets/medias/environnement/Decorations/sword_2.png" id="24_yyt0b"]
-[ext_resource type="Script" uid="uid://coixt7moxny2" path="res://scripts/sword_2.gd" id="25_pxrel"]
-[ext_resource type="Texture2D" uid="uid://bqcd0xg6ftmpt" path="res://assets/medias/environnement/Decorations/curtain_blue_1.png" id="30_gtq6k"]
-[ext_resource type="PackedScene" uid="uid://cpbtahp82b2m8" path="res://scenes/chevalier.tscn" id="37_y0hj3"]
-[ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="38_6mfgn"]
-[ext_resource type="PackedScene" uid="uid://cqfjewwe1ylh1" path="res://scenes/pause_menu.tscn" id="39_bjmfm"]
+[ext_resource type="Texture2D" uid="uid://ovu87keidabw" path="res://assets/medias/environnement/main_tileset_4x.png" id="1_vfgmp"]
+[ext_resource type="PackedScene" uid="uid://b1ck4v5rnkiws" path="res://scenes/epee.tscn" id="2_y73jn"]
+[ext_resource type="Texture2D" uid="uid://dq63wepjsci21" path="res://assets/medias/environnement/Decorations/table_noshadow.png" id="3_bui77"]
+[ext_resource type="Texture2D" uid="uid://3drbi88230nm" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_1.png" id="4_d6nxr"]
+[ext_resource type="Texture2D" uid="uid://tjl0qqhh1v6x" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_2.png" id="5_7c1w2"]
+[ext_resource type="Texture2D" uid="uid://daq4bcxyvhutr" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_3.png" id="6_4vaen"]
+[ext_resource type="Texture2D" uid="uid://c5ytibrhejtu1" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_4.png" id="7_palda"]
+[ext_resource type="Texture2D" uid="uid://bt6v7xcq5h57c" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_5.png" id="8_vmjdl"]
+[ext_resource type="Texture2D" uid="uid://bomxufy6bimlk" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_small/candelabrum_small_6.png" id="9_grdm1"]
+[ext_resource type="Texture2D" uid="uid://c4tn4e5jpyq4t" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_background.png" id="10_eowh4"]
+[ext_resource type="Texture2D" uid="uid://c8p3sp0nlxn2n" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_1.png" id="11_hn0g2"]
+[ext_resource type="Texture2D" uid="uid://c457g1c8dd5l5" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_2.png" id="12_ehlqo"]
+[ext_resource type="Texture2D" uid="uid://bs5elgi0sbw2o" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_3.png" id="13_os0q6"]
+[ext_resource type="Texture2D" uid="uid://c8jssgo4r2st0" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_4.png" id="14_rns23"]
+[ext_resource type="Texture2D" uid="uid://0ljxjsrpbktd" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_5.png" id="15_1plv4"]
+[ext_resource type="Texture2D" uid="uid://c1sjlbgtj5kpr" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_6.png" id="16_sbf0w"]
+[ext_resource type="Texture2D" uid="uid://chqr5kgcj26yp" path="res://assets/medias/environnement/Decorations/Animated Decorations/chest/chest_5.png" id="17_uhcs5"]
+[ext_resource type="Texture2D" uid="uid://bkqxi8my2gr3f" path="res://assets/medias/environnement/Decorations/sword_2.png" id="18_ehmeo"]
+[ext_resource type="Script" uid="uid://coixt7moxny2" path="res://scripts/sword_2.gd" id="19_5bop8"]
+[ext_resource type="Texture2D" uid="uid://bqcd0xg6ftmpt" path="res://assets/medias/environnement/Decorations/curtain_blue_1.png" id="20_sei2p"]
+[ext_resource type="Texture2D" uid="uid://c15nvppn5ij34" path="res://assets/medias/environnement/Decorations/door_open.png" id="21_gsule"]
+[ext_resource type="Texture2D" uid="uid://b3pmftdgsk7hy" path="res://assets/medias/environnement/Decorations/books.png" id="22_hhvvw"]
+[ext_resource type="PackedScene" uid="uid://cpbtahp82b2m8" path="res://scenes/chevalier.tscn" id="23_xrlin"]
+[ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="24_atche"]
+[ext_resource type="PackedScene" uid="uid://cqfjewwe1ylh1" path="res://scenes/pause_menu.tscn" id="25_agyiu"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
-texture = ExtResource("3_scfgh")
+texture = ExtResource("1_vfgmp")
 texture_region_size = Vector2i(128, 128)
 14:5/0 = 0
 14:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(63.2211, -62.6566, -64.35, -63.2211, -66.6079, 65.479, 63.7855, 64.9145)
@@ -259,7 +259,7 @@ physics_layer_0/collision_layer = 1
 sources/1 = SubResource("TileSetAtlasSource_jyhfs")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5q0nq"]
-atlas = ExtResource("9_ltad6")
+atlas = ExtResource("4_d6nxr")
 region = Rect2(0, 0, 16, 41)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_dgi5k"]
@@ -269,19 +269,19 @@ animations = [{
 "texture": SubResource("AtlasTexture_5q0nq")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_o2a4d")
+"texture": ExtResource("5_7c1w2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_ktyuc")
+"texture": ExtResource("6_4vaen")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_dfh3k")
+"texture": ExtResource("7_palda")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_djyon")
+"texture": ExtResource("8_vmjdl")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_e6we5")
+"texture": ExtResource("9_grdm1")
 }],
 "loop": true,
 "name": &"candelabrum_small",
@@ -292,22 +292,22 @@ animations = [{
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("16_ds17h")
+"texture": ExtResource("11_hn0g2")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_h2h81")
+"texture": ExtResource("12_ehlqo")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_2ye87")
+"texture": ExtResource("13_os0q6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_o4q00")
+"texture": ExtResource("14_rns23")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_po4x5")
+"texture": ExtResource("15_1plv4")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_jmt45")
+"texture": ExtResource("16_sbf0w")
 }],
 "loop": true,
 "name": &"default",
@@ -328,30 +328,30 @@ func _process(delta: float) -> void:
 	pass
 "
 
-[node name="niveau_interieur_intro" type="Node2D"]
+[node name="niveau_intro" type="Node2D"]
 
 [node name="Environnement" type="Node2D" parent="."]
 
 [node name="Arirere plan" type="TileMapLayer" parent="Environnement"]
-tile_map_data = PackedByteArray("AAAGAAEAAQAOAAMAAAAIAAEAAQAPAAMAAAAKAAEAAQAPAAMAAAAMAAEAAQAPAAMAAAAGAP//AQAFAAcAAAAIAP//AQAQAAIAAAAJAP//AQAQAAIAAAAKAP//AQAQAAIAAAALAP//AQAQAAIAAAAMAP//AQAQAAIAAAANAP//AQAQAAIAAAAOAP//AQAQAAIAAAAPAP//AQAQAAIAAAAQAP//AQAQAAIAAAARAP//AQAQAAIAAAAOAAEAAQAQAAMAAAAPAAEAAQAQAAMAAAAQAAEAAQAQAAMAAAARAAEAAQAQAAMAAAASAAEAAQAQAAMAAAATAAEAAQAQAAMAAAAEAAEAAQANAAUAAAACAAEAAQAMAAUAAAAEAAMAAQALAAMAAAAEAAUAAQALAAYAAAACAAUAAQALAAYAAAAEAAcAAQALAAYAAAAEAP//AQAQAAMAAAACAP//AQAQAAMAAAAAAP//AQAQAAMAAAATAP//AQAPAAIAAAAVAP//AQAPAAIAAAAVAAEAAQAPAAMAAAD+////AQAPAAMAAAD8////AQAPAAMAAAD6////AQAPAAMAAAD4////AQAPAAMAAADy////AQAPAAMAAAD8/wEAAQALAAUAAAD6/wEAAQALAAUAAAD4/wEAAQAFAAEAAADw/wUAAQARAAIAAADw/wMAAQARAAIAAADw////AQAEAAcAAAD2/wMAAQALAAYAAAD4/wMAAQAFAAIAAAD8/wUAAQALAAYAAAD6/wUAAQALAAYAAAD4/wUAAQAFAAMAAAD2/wUAAQALAAYAAAACAAMAAQALAAYAAAD//wUAAQAFAAMAAAD//wMAAQAFAAIAAAD//wEAAQAFAAEAAAAiAAcAAQALAAYAAAAkAAUAAQAMAAYAAAAiAAUAAQALAAYAAAAkAAMAAQALAAYAAAAmAAMAAQALAAYAAAAqAAMAAQAOAAIAAAAoAAMAAQANAAYAAADw/wEAAQARAAIAAADy/wEAAQALAAUAAAD0/wMAAQAHAAUAAAD0/wUAAQAHAAcAAAD0////AQAPAAMAAAD2/wEAAQALAAUAAAD2////AQAPAAMAAAD0/wEAAQALAAUAAAD8/wMAAQALAAYAAAD7/wMAAQALAAYAAADy/wMAAQALAAYAAADy/wUAAQAKAAQAAAAGAAcAAQAHAAMAAAAGAAUAAQAHAAIAAAAGAAMAAQAHAAEAAAAIAAMAAQAIAAEAAAAIAAUAAQAIAAIAAAAIAAcAAQAIAAMAAAAKAAcAAQAJAAMAAAAKAAUAAQAJAAIAAAAKAAMAAQAJAAEAAAAMAAMAAQAHAAEAAAAMAAUAAQAHAAIAAAAMAAcAAQAHAAMAAAAOAAcAAQAIAAMAAAAOAAUAAQAIAAIAAAAOAAMAAQAIAAEAAAAQAAMAAQAJAAEAAAAQAAUAAQAJAAIAAAAQAAcAAQAJAAMAAAASAAcAAQAHAAMAAAASAAUAAQAHAAIAAAASAAMAAQAHAAEAAAAUAAMAAQAIAAEAAAAUAAUAAQAIAAIAAAAUAAcAAQAIAAMAAAAgAAMAAQAMAAYAAAAgAAcAAQALAAYAAAAWAAcAAQAJAAMAAAAWAAUAAQAJAAIAAAAWAAMAAQAJAAEAAAAcAAMAAQAMAAMAAAAeAAUAAQALAAYAAAAiAAMAAQANAAMAAAAYAAcAAQALAAYAAAAXAAEAAQARAAMAAAAXAP//AQARAAIAAAAXAAMAAQAMAAUAAAAZAAEAAQAKAAUAAAAbAAEAAQALAAUAAAAdAAEAAQALAAUAAAAfAAEAAQALAAUAAAAhAAEAAQALAAUAAAAjAAEAAQALAAUAAAAlAAEAAQALAAUAAAAnAAEAAQALAAUAAAAZAP//AQAOAAMAAAAbAP//AQAPAAMAAAAdAP//AQAQAAMAAAAfAP//AQAQAAMAAAAhAP//AQAQAAMAAAAjAP//AQAPAAMAAAAlAP//AQAQAAMAAAAnAP//AQAPAAMAAAAoAAEAAQANAAUAAAAqAAEAAQAOAAIAAAAoAP//AQAQAAMAAAAqAP//AQAFAAcAAAAWAP3/AQAQAAIAAAAUAP3/AQAQAAIAAAATAP3/AQAPAAIAAAASAP3/AQAPAAIAAAARAP3/AQAPAAIAAAAQAP3/AQAPAAIAAAAPAP3/AQAPAAIAAAAOAP3/AQAPAAIAAAAMAP3/AQAQAAIAAAAKAP3/AQAQAAIAAAAOAP7/AQAPAAIAAAAPAP7/AQAPAAIAAAAIAP3/AQAQAAIAAAAGAP3/AQAQAAIAAAAEAP3/AQAQAAIAAAACAP3/AQAQAAIAAAAAAP3/AQAQAAIAAAD+//3/AQAQAAIAAAD8//3/AQAQAAIAAAD6//3/AQAQAAIAAAD4//3/AQAQAAIAAAD2//3/AQAQAAIAAAD0//3/AQAQAAIAAADy//3/AQAQAAIAAADw//3/AQAQAAIAAAAaAP3/AQAPAAIAAAAbAP3/AQAPAAIAAAAcAP3/AQAPAAIAAAAdAP3/AQAPAAIAAAAeAP3/AQAPAAIAAAAfAP3/AQAPAAIAAAAgAP3/AQAPAAIAAAAhAP3/AQAPAAIAAAAiAP3/AQAPAAIAAAAjAP3/AQAPAAIAAAAkAP3/AQAPAAIAAAAlAP3/AQAPAAIAAAAmAP3/AQAPAAIAAAAnAP3/AQAPAAIAAAAoAP3/AQAPAAIAAAApAP3/AQAPAAIAAAAqAP3/AQAPAAIAAAAsAAMAAQAQAAIAAAAsAAEAAQAQAAIAAAAsAP//AQAQAAIAAAAsAP3/AQAQAAIAAAAsAAUAAQAQAAIAAAAsAAcAAQAQAAIAAAAsAAgAAQAQAAIAAAAXAP3/AQARAAIAAAAZAP3/AQAOAAIAAAAYAAUAAQAMAAMAAAAZAAMAAQAKAAMAAAAaAAUAAQAMAAYAAAAaAAMAAQANAAMAAAAcAAUAAQANAAMAAAAeAAMAAQAMAAMAAAAgAAUAAQALAAYAAAA=")
+tile_map_data = PackedByteArray("AAAGAAEAAQAOAAMAAAAIAAEAAQAPAAMAAAAKAAEAAQAPAAMAAAAMAAEAAQAPAAMAAAAGAP//AQAFAAcAAAAIAP//AQAQAAIAAAAJAP//AQAQAAIAAAAKAP//AQAQAAIAAAALAP//AQAQAAIAAAAMAP//AQAQAAIAAAANAP//AQAQAAIAAAAOAP//AQAQAAIAAAAPAP//AQAQAAIAAAAQAP//AQAQAAIAAAARAP//AQAQAAIAAAAOAAEAAQAQAAMAAAAPAAEAAQAQAAMAAAAQAAEAAQAQAAMAAAARAAEAAQAQAAMAAAASAAEAAQAQAAMAAAATAAEAAQAQAAMAAAAEAAEAAQANAAUAAAACAAEAAQAMAAUAAAAEAAMAAQALAAMAAAAEAAUAAQALAAYAAAACAAUAAQALAAYAAAAEAAcAAQALAAYAAAAEAP//AQAQAAMAAAACAP//AQAQAAMAAAAAAP//AQAQAAMAAAATAP//AQAPAAIAAAAVAP//AQAPAAIAAAAVAAEAAQAPAAMAAAD+////AQAPAAMAAAD8////AQAPAAMAAAD6////AQAPAAMAAAD4////AQAPAAMAAADy////AQAPAAMAAAD8/wEAAQALAAUAAAD6/wEAAQALAAUAAAD4/wEAAQAFAAEAAADw/wUAAQARAAIAAADw/wMAAQARAAIAAADw////AQAEAAcAAAD2/wMAAQALAAYAAAD4/wMAAQAFAAIAAAD8/wUAAQALAAYAAAD6/wUAAQALAAYAAAD4/wUAAQAFAAMAAAD2/wUAAQALAAYAAAACAAMAAQALAAYAAAAiAAcAAQALAAYAAAAkAAUAAQAMAAYAAAAiAAUAAQALAAYAAAAkAAMAAQALAAYAAAAmAAMAAQALAAYAAAAqAAMAAQAOAAIAAAAoAAMAAQANAAYAAADw/wEAAQARAAIAAADy/wEAAQALAAUAAAD0////AQAPAAMAAAD2/wEAAQALAAUAAAD2////AQAPAAMAAAD0/wEAAQALAAUAAAD8/wMAAQALAAYAAAD7/wMAAQALAAYAAADy/wMAAQALAAYAAADy/wUAAQAKAAQAAAAGAAcAAQAHAAMAAAAGAAUAAQAHAAIAAAAGAAMAAQAHAAEAAAAIAAMAAQAIAAEAAAAIAAUAAQAIAAIAAAAIAAcAAQAIAAMAAAAKAAcAAQAJAAMAAAAKAAUAAQAJAAIAAAAKAAMAAQAJAAEAAAAMAAMAAQAHAAEAAAAMAAUAAQAHAAIAAAAMAAcAAQAHAAMAAAAOAAcAAQAIAAMAAAAOAAUAAQAIAAIAAAAOAAMAAQAIAAEAAAAQAAMAAQAJAAEAAAAQAAUAAQAJAAIAAAAQAAcAAQAJAAMAAAASAAcAAQAHAAMAAAASAAUAAQAHAAIAAAASAAMAAQAHAAEAAAAUAAMAAQAIAAEAAAAUAAUAAQAIAAIAAAAUAAcAAQAIAAMAAAAgAAMAAQAMAAYAAAAgAAcAAQALAAYAAAAWAAcAAQAJAAMAAAAWAAUAAQAJAAIAAAAWAAMAAQAJAAEAAAAcAAMAAQAMAAMAAAAeAAUAAQALAAYAAAAiAAMAAQANAAMAAAAYAAcAAQALAAYAAAAXAAEAAQARAAMAAAAXAP//AQARAAIAAAAXAAMAAQAMAAUAAAAZAAEAAQAKAAUAAAAbAAEAAQALAAUAAAAdAAEAAQALAAUAAAAfAAEAAQALAAUAAAAhAAEAAQALAAUAAAAjAAEAAQALAAUAAAAlAAEAAQALAAUAAAAnAAEAAQALAAUAAAAZAP//AQAOAAMAAAAbAP//AQAPAAMAAAAdAP//AQAQAAMAAAAfAP//AQAQAAMAAAAhAP//AQAQAAMAAAAjAP//AQAPAAMAAAAlAP//AQAQAAMAAAAnAP//AQAPAAMAAAAoAAEAAQANAAUAAAAqAAEAAQAOAAIAAAAoAP//AQAQAAMAAAAqAP//AQAFAAcAAAAWAP3/AQAQAAIAAAAUAP3/AQAQAAIAAAATAP3/AQAPAAIAAAASAP3/AQAPAAIAAAARAP3/AQAPAAIAAAAQAP3/AQAPAAIAAAAPAP3/AQAPAAIAAAAOAP3/AQAPAAIAAAAMAP3/AQAQAAIAAAAKAP3/AQAQAAIAAAAOAP7/AQAPAAIAAAAPAP7/AQAPAAIAAAAIAP3/AQAQAAIAAAAGAP3/AQAQAAIAAAAEAP3/AQAQAAIAAAACAP3/AQAQAAIAAAAAAP3/AQAQAAIAAAD+//3/AQAQAAIAAAD8//3/AQAQAAIAAAD6//3/AQAQAAIAAAD4//3/AQAQAAIAAAD2//3/AQAQAAIAAAD0//3/AQAQAAIAAADy//3/AQAQAAIAAADw//3/AQAQAAIAAAAaAP3/AQAPAAIAAAAbAP3/AQAPAAIAAAAcAP3/AQAPAAIAAAAdAP3/AQAPAAIAAAAeAP3/AQAPAAIAAAAfAP3/AQAPAAIAAAAgAP3/AQAPAAIAAAAhAP3/AQAPAAIAAAAiAP3/AQAPAAIAAAAjAP3/AQAPAAIAAAAkAP3/AQAPAAIAAAAlAP3/AQAPAAIAAAAmAP3/AQAPAAIAAAAnAP3/AQAPAAIAAAAoAP3/AQAPAAIAAAApAP3/AQAPAAIAAAAqAP3/AQAPAAIAAAAsAAMAAQAQAAIAAAAsAAEAAQAQAAIAAAAsAP//AQAQAAIAAAAsAP3/AQAQAAIAAAAsAAUAAQAQAAIAAAAsAAcAAQAQAAIAAAAsAAgAAQAQAAIAAAAXAP3/AQARAAIAAAAZAP3/AQAOAAIAAAAYAAUAAQAMAAMAAAAZAAMAAQAKAAMAAAAaAAUAAQAMAAYAAAAaAAMAAQANAAMAAAAcAAUAAQANAAMAAAAeAAMAAQAMAAMAAAAgAAUAAQALAAYAAAD0/wMAAQALAAYAAAD0/wUAAQALAAYAAAD+/wUAAQAIAAcAAAD//wUAAQAFAAMAAAD//wMAAQAFAAIAAAD//wEAAQAFAAEAAAA=")
 tile_set = SubResource("TileSet_tbgi4")
 
 [node name="Floor" type="TileMapLayer" parent="Environnement"]
-tile_map_data = PackedByteArray("AAACAAcAAQATAAYAAAAAAAcAAQAUAAIAAAAEAAcAAQAOAAYAAAACAAkAAQAPAAIAAAAAAAkAAQAPAAIAAAAEAAkAAQAOAAcAAAAGAAkAAQAVAAEAAAAIAAkAAQAQAAEAAAAKAAkAAQAQAAEAAAAeAAkAAQAPAAIAAAAgAAkAAQAQAAIAAAD+/wcAAQATAAYAAAD8/wcAAQATAAYAAAD6/wcAAQATAAYAAAD4/wcAAQATAAYAAAD2/wcAAQATAAYAAAD0/wcAAQATAAYAAADy/wcAAQAUAAEAAAD+/wkAAQAPAAIAAAD9/wkAAQAPAAIAAAD8/wkAAQAPAAIAAAD7/wkAAQAPAAIAAAD6/wkAAQAPAAIAAAD5/wkAAQAPAAIAAAD4/wkAAQAPAAIAAAD3/wkAAQAPAAIAAAD2/wkAAQAPAAIAAAD1/wkAAQAPAAIAAAD0/wkAAQAPAAIAAADz/wkAAQAPAAIAAADy/wkAAQAPAAIAAAABAAcAAQATAAYAAADw/wcAAQASAAIAAADw/wkAAQAPAAIAAAAiAAkAAQAPAAIAAAAjAAkAAQAPAAIAAAAkAAkAAQAPAAIAAAAlAAkAAQAPAAIAAAAmAAkAAQAPAAIAAAAnAAkAAQAPAAIAAAAoAAkAAQAPAAIAAAATAAsAAQAPAAIAAAASAAsAAQAPAAIAAAARAAsAAQAPAAIAAAAQAAsAAQAPAAIAAAAPAAsAAQAPAAIAAAAOAAsAAQAPAAIAAAANAAsAAQAPAAIAAAAMAAsAAQAPAAIAAAALAAsAAQAPAAIAAAAKAAsAAQAPAAIAAAAJAAsAAQAPAAIAAAAIAAsAAQAPAAIAAAAHAAsAAQAPAAIAAAAGAAsAAQAPAAIAAAAFAAsAAQAPAAIAAAAEAAsAAQAPAAIAAAADAAsAAQAPAAIAAAAbAAsAAQAPAAIAAAAcAAsAAQAPAAIAAAAdAAsAAQAPAAIAAAAeAAsAAQAPAAIAAAAfAAsAAQAPAAIAAAAgAAsAAQAPAAIAAAAhAAsAAQAPAAIAAAAiAAsAAQAPAAIAAAAmAAcAAQAQAAIAAAAoAAcAAQAQAAIAAAAqAAcAAQAQAAIAAAAqAAkAAQAPAAIAAAAMAAkAAQAQAAEAAAAQAAkAAQAQAAEAAAAUAAkAAQAQAAEAAAAYAAkAAQAQAAEAAAAOAAkAAQAPAAEAAAASAAkAAQAPAAEAAAAWAAkAAQAPAAEAAAAVAAsAAQAPAAIAAAAXAAsAAQAPAAIAAAAZAAsAAQAPAAIAAAAaAAcAAQAOAAEAAAAaAAkAAQATAAIAAAAcAAkAAQAPAAIAAAAcAAcAAQAQAAEAAAAeAAcAAQAQAAEAAAAgAAcAAQAPAAEAAAAiAAUAAQAOAAEAAAAiAAcAAQATAAIAAAAkAAUAAQAQAAEAAAAmAAUAAQAQAAEAAAAkAAcAAQAPAAIAAAABAAsAAQAPAAIAAAD//wsAAQAPAAIAAAD9/wsAAQAPAAIAAAD7/wsAAQAPAAIAAAD5/wsAAQAPAAIAAAD3/wsAAQAPAAIAAAD1/wsAAQAPAAIAAADz/wsAAQAPAAIAAADx/wsAAQAPAAIAAADw/wsAAQAPAAIAAAAoAAUAAQAQAAEAAAAqAAUAAQATAAIAAAA=")
+tile_map_data = PackedByteArray("AAAEAAcAAQAOAAQAAAACAAkAAQAPAAIAAAAAAAkAAQAPAAIAAAAEAAkAAQAOAAUAAAAGAAkAAQAPAAEAAAAIAAkAAQAQAAEAAAAKAAkAAQAQAAEAAAAeAAkAAQAPAAIAAAAgAAkAAQAQAAIAAAD+/wkAAQAPAAIAAAD9/wkAAQAPAAIAAAD8/wkAAQAPAAIAAAD7/wkAAQAPAAIAAAD6/wkAAQAPAAIAAAD5/wkAAQAPAAIAAAD4/wkAAQAPAAIAAAD3/wkAAQAPAAIAAAD2/wkAAQAPAAIAAAD1/wkAAQAPAAIAAAD0/wkAAQAPAAIAAADz/wkAAQAPAAIAAADy/wkAAQAPAAIAAADw/wcAAQASAAIAAADw/wkAAQAPAAIAAAAiAAkAAQAPAAIAAAAjAAkAAQAPAAIAAAAkAAkAAQAPAAIAAAAlAAkAAQAPAAIAAAAmAAkAAQAPAAIAAAAnAAkAAQAPAAIAAAAoAAkAAQAPAAIAAAATAAsAAQAPAAIAAAASAAsAAQAPAAIAAAARAAsAAQAPAAIAAAAQAAsAAQAPAAIAAAAPAAsAAQAPAAIAAAAOAAsAAQAPAAIAAAANAAsAAQAPAAIAAAAMAAsAAQAPAAIAAAALAAsAAQAPAAIAAAAKAAsAAQAPAAIAAAAJAAsAAQAPAAIAAAAIAAsAAQAPAAIAAAAHAAsAAQAPAAIAAAAGAAsAAQAPAAIAAAAFAAsAAQAPAAIAAAAEAAsAAQAPAAIAAAADAAsAAQAPAAIAAAAbAAsAAQAPAAIAAAAcAAsAAQAPAAIAAAAdAAsAAQAPAAIAAAAeAAsAAQAPAAIAAAAfAAsAAQAPAAIAAAAgAAsAAQAPAAIAAAAhAAsAAQAPAAIAAAAiAAsAAQAPAAIAAAAmAAcAAQAQAAIAAAAoAAcAAQAQAAIAAAAqAAcAAQAQAAIAAAAqAAkAAQAPAAIAAAAMAAkAAQAQAAEAAAAQAAkAAQAQAAEAAAAUAAkAAQAQAAEAAAAYAAkAAQAQAAEAAAASAAkAAQAPAAEAAAAWAAkAAQAPAAEAAAAVAAsAAQAPAAIAAAAXAAsAAQAPAAIAAAAZAAsAAQAPAAIAAAAaAAcAAQAOAAEAAAAaAAkAAQATAAIAAAAcAAkAAQAPAAIAAAAcAAcAAQAQAAEAAAAeAAcAAQAQAAEAAAAgAAcAAQAPAAEAAAAiAAUAAQAOAAEAAAAiAAcAAQATAAIAAAAkAAUAAQAQAAEAAAAmAAUAAQAQAAEAAAAkAAcAAQAPAAIAAAABAAsAAQAPAAIAAAD//wsAAQAPAAIAAAD9/wsAAQAPAAIAAAD7/wsAAQAPAAIAAAD5/wsAAQAPAAIAAAD3/wsAAQAPAAIAAAD1/wsAAQAPAAIAAADz/wsAAQAPAAIAAADx/wsAAQAPAAIAAADw/wsAAQAPAAIAAAAoAAUAAQAQAAEAAAAqAAUAAQATAAIAAAAOAAkAAQAPAAEAAAD+/wcAAQAQAAEAAAD6/wcAAQAQAAEAAAD2/wcAAQAQAAEAAADy/wcAAQAQAAEAAAAAAAcAAQAPAAEAAAD8/wcAAQAPAAEAAAD4/wcAAQAPAAEAAAD0/wcAAQAPAAEAAAACAAcAAQAQAAEAAAA=")
 tile_set = SubResource("TileSet_tbgi4")
 
-[node name="epee" parent="Environnement" instance=ExtResource("5_tbbbo")]
-position = Vector2(-608, 257)
+[node name="epee" parent="Environnement" instance=ExtResource("2_y73jn")]
+position = Vector2(-663, 257)
 
 [node name="imgs et anims" type="Node2D" parent="Environnement"]
 
 [node name="TableNoshadow" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(725, 508)
 scale = Vector2(3.47368, 3.47368)
-texture = ExtResource("7_vbpfl")
+texture = ExtResource("3_bui77")
 
 [node name="candles" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(686.5, 420.5)
+position = Vector2(775, 420.5)
 scale = Vector2(2.8125, 2.8125)
 sprite_frames = SubResource("SpriteFrames_dgi5k")
 animation = &"candelabrum_small"
@@ -360,7 +360,7 @@ autoplay = "candelabrum_small"
 [node name="TorchSmallBg_1" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(190.005, 247.53)
 scale = Vector2(4.01, 4.01)
-texture = ExtResource("15_84y3w")
+texture = ExtResource("10_eowh4")
 
 [node name="torch_small_1" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(194.545, 212.505)
@@ -369,21 +369,21 @@ sprite_frames = SubResource("SpriteFrames_j8jky")
 autoplay = "default"
 
 [node name="Chest5" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(-612, 373)
+position = Vector2(-656, 373)
 scale = Vector2(3.72727, 3.72727)
-texture = ExtResource("23_7w2fw")
+texture = ExtResource("17_uhcs5")
 
 [node name="Sword2" type="Sprite2D" parent="Environnement/imgs et anims"]
 visible = false
 position = Vector2(-614, 261)
 scale = Vector2(3.95455, 3.95455)
-texture = ExtResource("24_yyt0b")
-script = ExtResource("25_pxrel")
+texture = ExtResource("18_ehmeo")
+script = ExtResource("19_5bop8")
 
 [node name="TorchSmallBg_2" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(1815, 191)
 scale = Vector2(4.01, 4.01)
-texture = ExtResource("15_84y3w")
+texture = ExtResource("10_eowh4")
 
 [node name="torch_small_2" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(1817, 145)
@@ -394,12 +394,12 @@ autoplay = "default"
 [node name="CurtainBlue1" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(-841, 225)
 scale = Vector2(3.32979, 3.32979)
-texture = ExtResource("30_gtq6k")
+texture = ExtResource("20_sei2p")
 
 [node name="TorchSmallBg_3" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(-274, 250)
 scale = Vector2(4.01, 4.01)
-texture = ExtResource("15_84y3w")
+texture = ExtResource("10_eowh4")
 
 [node name="torch_small_3" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(-272, 217)
@@ -410,7 +410,7 @@ autoplay = "default"
 [node name="TorchSmallBg_4" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(2079, 191)
 scale = Vector2(4.01, 4.01)
-texture = ExtResource("15_84y3w")
+texture = ExtResource("10_eowh4")
 
 [node name="torch_small_4" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(2081, 145)
@@ -421,7 +421,7 @@ autoplay = "default"
 [node name="TorchSmallBg_5" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(2335, 191)
 scale = Vector2(4.01, 4.01)
-texture = ExtResource("15_84y3w")
+texture = ExtResource("10_eowh4")
 
 [node name="torch_small_5" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(2337, 145)
@@ -432,14 +432,14 @@ autoplay = "default"
 [node name="DoorOpen" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(2545, 175)
 scale = Vector2(3.79268, 3.79268)
-texture = ExtResource("21_4np73")
+texture = ExtResource("21_gsule")
 
 [node name="Books" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(760, 455)
+position = Vector2(703, 455)
 scale = Vector2(3.07143, 3.07143)
-texture = ExtResource("22_4ha8t")
+texture = ExtResource("22_hhvvw")
 
-[node name="chevalier" parent="." groups=["player"] instance=ExtResource("37_y0hj3")]
+[node name="chevalier" parent="." groups=["player"] instance=ExtResource("23_xrlin")]
 position = Vector2(99, 282)
 floor_max_angle = 1.213
 
@@ -456,7 +456,7 @@ position_smoothing_enabled = true
 
 [node name="HUD" type="Node2D" parent="chevalier/Camera2D/CanvasLayer"]
 position = Vector2(1141, 14)
-script = ExtResource("38_6mfgn")
+script = ExtResource("24_atche")
 
 [node name="Menu" type="Button" parent="chevalier/Camera2D/CanvasLayer/HUD"]
 visible = false
@@ -466,7 +466,7 @@ offset_bottom = 29.0
 text = "Menu"
 script = SubResource("GDScript_5he1u")
 
-[node name="PauseMenu" parent="chevalier/Camera2D/CanvasLayer/HUD" instance=ExtResource("39_bjmfm")]
+[node name="PauseMenu" parent="chevalier/Camera2D/CanvasLayer/HUD" instance=ExtResource("25_agyiu")]
 visible = false
 offset_left = -1134.0
 offset_right = -58.0

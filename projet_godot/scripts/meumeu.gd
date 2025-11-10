@@ -1,7 +1,7 @@
 extends Control
  
 func _on_commencer_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/niveau_interieur_intro.tscn")
+	get_tree().change_scene_to_file("res://scenes/niveau_intro.tscn")
 
 
 func _on_quitter_pressed() -> void:

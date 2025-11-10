@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cx4mymnfi58f6"]
+[gd_scene load_steps=5 format=3 uid="uid://cx4mymnfi58f6"]
 
 [ext_resource type="Script" uid="uid://b3e1n7smwh8mx" path="res://scripts/meumeu.gd" id="1_nemax"]
 [ext_resource type="Texture2D" uid="uid://btdaw857g7fg3" path="res://assets/medias/environnement/Background/layer_1.png" id="2_gundx"]
 [ext_resource type="Texture2D" uid="uid://b1ftii3nt31cf" path="res://assets/medias/environnement/Background/layer_2.png" id="3_2hwq0"]
+[ext_resource type="FontFile" uid="uid://be7jvo5exqyt6" path="res://assets/OldLondon.ttf" id="4_2hwq0"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -40,23 +41,26 @@ offset_bottom = 439.0
 [node name="commencer" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 30
+theme_override_fonts/font = ExtResource("4_2hwq0")
+theme_override_font_sizes/font_size = 40
 text = "Commencer"
 
 [node name="quitter" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_disabled_color = Color(1, 1, 1, 1)
-theme_override_font_sizes/font_size = 20
+theme_override_fonts/font = ExtResource("4_2hwq0")
+theme_override_font_sizes/font_size = 30
 text = "Quitter"
 
 [node name="Label" type="Label" parent="Panel"]
-layout_mode = 2
-offset_left = 272.0
-offset_top = 221.0
-offset_right = 931.0
-offset_bottom = 347.0
-theme_override_font_sizes/font_size = 69
-text = "Remparts de Minuit"
+layout_mode = 0
+offset_left = 231.0
+offset_top = 216.0
+offset_right = 968.0
+offset_bottom = 296.0
+theme_override_fonts/font = ExtResource("4_2hwq0")
+theme_override_font_sizes/font_size = 100
+text = "Le Dernier Serment"
 
 [connection signal="pressed" from="Panel/VBoxContainer/commencer" to="." method="_on_commencer_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/quitter" to="." method="_on_quitter_pressed"]
