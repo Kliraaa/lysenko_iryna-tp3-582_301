@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=4 uid="uid://c2bbl1rf062aw"]
+[gd_scene load_steps=27 format=4 uid="uid://c2bbl1rf062aw"]
 
 [ext_resource type="Texture2D" uid="uid://btdaw857g7fg3" path="res://assets/medias/environnement/Background/layer_1.png" id="1_edfr2"]
 [ext_resource type="Texture2D" uid="uid://b1ftii3nt31cf" path="res://assets/medias/environnement/Background/layer_2.png" id="2_yl22i"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://c8p3sp0nlxn2n" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_1.png" id="15_xux75"]
 [ext_resource type="Texture2D" uid="uid://c457g1c8dd5l5" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_2.png" id="16_y31gd"]
 [ext_resource type="Texture2D" uid="uid://bs5elgi0sbw2o" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_3.png" id="17_3678w"]
+[ext_resource type="Texture2D" uid="uid://bykjiykl2cpyg" path="res://assets/medias/environnement/Graveyard/Social/moon.png" id="18_b8who"]
 [ext_resource type="Texture2D" uid="uid://c8jssgo4r2st0" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_4.png" id="18_s4413"]
 [ext_resource type="Texture2D" uid="uid://0ljxjsrpbktd" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_5.png" id="19_l7a3d"]
 [ext_resource type="Texture2D" uid="uid://c1sjlbgtj5kpr" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_6.png" id="20_e6ln0"]
@@ -251,6 +252,7 @@ sources/1 = SubResource("TileSetAtlasSource_jyhfs")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b8who"]
 texture = ExtResource("4_gjaol")
+texture_region_size = Vector2i(24, 24)
 8:1/size_in_atlas = Vector2i(3, 3)
 8:1/0 = 0
 11:1/size_in_atlas = Vector2i(3, 3)
@@ -279,22 +281,12 @@ texture = ExtResource("4_gjaol")
 17:14/0 = 0
 17:19/size_in_atlas = Vector2i(5, 5)
 17:19/0 = 0
-0:15/size_in_atlas = Vector2i(1, 5)
-0:15/0 = 0
-1:15/size_in_atlas = Vector2i(1, 5)
-1:15/0 = 0
-2:15/size_in_atlas = Vector2i(1, 5)
-2:15/0 = 0
-3:15/size_in_atlas = Vector2i(1, 5)
-3:15/0 = 0
 6:19/size_in_atlas = Vector2i(2, 3)
 6:19/0 = 0
 4:19/size_in_atlas = Vector2i(2, 3)
 4:19/0 = 0
 8:19/size_in_atlas = Vector2i(2, 3)
 8:19/0 = 0
-10:18/size_in_atlas = Vector2i(2, 3)
-10:18/0 = 0
 10:21/size_in_atlas = Vector2i(2, 1)
 10:21/0 = 0
 4:15/size_in_atlas = Vector2i(2, 3)
@@ -315,10 +307,6 @@ texture = ExtResource("4_gjaol")
 2:10/0 = 0
 2:5/size_in_atlas = Vector2i(2, 3)
 2:5/0 = 0
-2:1/size_in_atlas = Vector2i(3, 4)
-2:1/0 = 0
-5:1/size_in_atlas = Vector2i(3, 4)
-5:1/0 = 0
 6:5/size_in_atlas = Vector2i(2, 3)
 6:5/0 = 0
 8:5/size_in_atlas = Vector2i(2, 3)
@@ -347,8 +335,37 @@ texture = ExtResource("4_gjaol")
 3:10/0 = 0
 5:10/size_in_atlas = Vector2i(2, 2)
 5:10/0 = 0
+10:20/size_in_atlas = Vector2i(2, 1)
+10:20/0 = 0
+10:18/size_in_atlas = Vector2i(2, 2)
+10:18/0 = 0
+2:1/size_in_atlas = Vector2i(2, 4)
+2:1/0 = 0
+4:1/size_in_atlas = Vector2i(2, 4)
+4:1/0 = 0
+6:1/size_in_atlas = Vector2i(2, 4)
+6:1/0 = 0
+1:20/size_in_atlas = Vector2i(2, 1)
+1:20/0 = 0
+1:21/size_in_atlas = Vector2i(2, 1)
+1:21/0 = 0
+1:22/size_in_atlas = Vector2i(2, 1)
+1:22/0 = 0
+1:23/size_in_atlas = Vector2i(2, 1)
+1:23/0 = 0
+0:20/0 = 0
+0:21/0 = 0
+0:22/0 = 0
+0:23/0 = 0
+3:20/0 = 0
+3:21/0 = 0
+3:22/0 = 0
+3:23/0 = 0
+0:15/size_in_atlas = Vector2i(4, 5)
+0:15/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_x1h4u"]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_b8who")
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_j8jky"]
@@ -434,6 +451,13 @@ position = Vector2(206, -404)
 scale = Vector2(2.92748, 2.92748)
 texture = ExtResource("2_yl22i")
 
+[node name="ref-img" type="Sprite2D" parent="Environnement"]
+modulate = Color(1, 1, 1, 0.627451)
+position = Vector2(650, 217.00002)
+scale = Vector2(0.40927815, 0.40927833)
+texture = ExtResource("18_b8who")
+metadata/_edit_lock_ = true
+
 [node name="Arirere plan" type="TileMapLayer" parent="Environnement"]
 tile_set = SubResource("TileSet_tbgi4")
 
@@ -458,7 +482,7 @@ sprite_frames = SubResource("SpriteFrames_j8jky")
 autoplay = "default"
 
 [node name="DoorOpen" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(-64, 305)
+position = Vector2(-60, 305)
 scale = Vector2(3.76829, 3.76829)
 texture = ExtResource("33_2q7dm")
 
