@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=4 uid="uid://dw3kbj3th7k65"]
+[gd_scene load_steps=35 format=4 uid="uid://dw3kbj3th7k65"]
 
 [ext_resource type="Texture2D" uid="uid://ovu87keidabw" path="res://assets/medias/environnement/main_tileset_4x.png" id="1_vfgmp"]
 [ext_resource type="PackedScene" uid="uid://b1ck4v5rnkiws" path="res://scenes/epee.tscn" id="2_y73jn"]
@@ -26,6 +26,7 @@
 [ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="24_atche"]
 [ext_resource type="PackedScene" uid="uid://cqfjewwe1ylh1" path="res://scenes/pause_menu.tscn" id="25_agyiu"]
 [ext_resource type="PackedScene" uid="uid://bxvfyw0hy5ln8" path="res://scenes/killzone.tscn" id="26_y73jn"]
+[ext_resource type="PackedScene" uid="uid://bkdc68ocspni6" path="res://scenes/door_1to2.tscn" id="27_bui77"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
 texture = ExtResource("1_vfgmp")
@@ -434,7 +435,7 @@ sprite_frames = SubResource("SpriteFrames_j8jky")
 autoplay = "default"
 
 [node name="DoorOpen" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(2545, 175)
+position = Vector2(3187.9998, -157)
 scale = Vector2(3.79268, 3.79268)
 texture = ExtResource("21_gsule")
 
@@ -484,5 +485,8 @@ collision_mask = 1
 position = Vector2(23, -105)
 scale = Vector2(1.28, 2.28)
 shape = SubResource("WorldBoundaryShape2D_bui77")
+
+[node name="door" parent="." instance=ExtResource("27_bui77")]
+position = Vector2(2485, 101)
 
 [connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]
