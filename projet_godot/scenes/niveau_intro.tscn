@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://dw3kbj3th7k65"]
+[gd_scene load_steps=34 format=4 uid="uid://dw3kbj3th7k65"]
 
 [ext_resource type="Texture2D" uid="uid://ovu87keidabw" path="res://assets/medias/environnement/main_tileset_4x.png" id="1_vfgmp"]
 [ext_resource type="PackedScene" uid="uid://b1ck4v5rnkiws" path="res://scenes/epee.tscn" id="2_y73jn"]
@@ -20,7 +20,6 @@
 [ext_resource type="Texture2D" uid="uid://bkqxi8my2gr3f" path="res://assets/medias/environnement/Decorations/sword_2.png" id="18_ehmeo"]
 [ext_resource type="Script" uid="uid://coixt7moxny2" path="res://scripts/sword_2.gd" id="19_5bop8"]
 [ext_resource type="Texture2D" uid="uid://bqcd0xg6ftmpt" path="res://assets/medias/environnement/Decorations/curtain_blue_1.png" id="20_sei2p"]
-[ext_resource type="Texture2D" uid="uid://c15nvppn5ij34" path="res://assets/medias/environnement/Decorations/door_open.png" id="21_gsule"]
 [ext_resource type="Texture2D" uid="uid://b3pmftdgsk7hy" path="res://assets/medias/environnement/Decorations/books.png" id="22_hhvvw"]
 [ext_resource type="PackedScene" uid="uid://cpbtahp82b2m8" path="res://scenes/chevalier.tscn" id="23_xrlin"]
 [ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="24_atche"]
@@ -433,11 +432,6 @@ position = Vector2(2337, 145)
 scale = Vector2(4, 4)
 sprite_frames = SubResource("SpriteFrames_j8jky")
 autoplay = "default"
-
-[node name="DoorOpen" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(3187.9998, -157)
-scale = Vector2(3.79268, 3.79268)
-texture = ExtResource("21_gsule")
 
 [node name="Books" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(703, 455)
