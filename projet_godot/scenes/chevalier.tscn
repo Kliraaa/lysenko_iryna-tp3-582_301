@@ -276,7 +276,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1dora"]
-radius = 64.0
+radius = 42.666634
 height = 218.667
 
 [node name="chevalier" type="CharacterBody2D"]
@@ -292,7 +292,7 @@ animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(10.6667, 14.6667)
+position = Vector2(-1.333333, 16)
 shape = SubResource("CapsuleShape2D_1dora")
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]

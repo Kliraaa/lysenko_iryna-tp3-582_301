@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=4 uid="uid://dw3kbj3th7k65"]
+[gd_scene load_steps=35 format=4 uid="uid://dw3kbj3th7k65"]
 
 [ext_resource type="Texture2D" uid="uid://ovu87keidabw" path="res://assets/medias/environnement/main_tileset_4x.png" id="1_vfgmp"]
 [ext_resource type="PackedScene" uid="uid://b1ck4v5rnkiws" path="res://scenes/epee.tscn" id="2_y73jn"]
@@ -26,6 +26,7 @@
 [ext_resource type="PackedScene" uid="uid://cqfjewwe1ylh1" path="res://scenes/pause_menu.tscn" id="25_agyiu"]
 [ext_resource type="PackedScene" uid="uid://bxvfyw0hy5ln8" path="res://scenes/killzone.tscn" id="26_y73jn"]
 [ext_resource type="PackedScene" uid="uid://bkdc68ocspni6" path="res://scenes/door_1to2.tscn" id="27_bui77"]
+[ext_resource type="Texture2D" uid="uid://bj3174xvf5eip" path="res://assets/medias/environnement/Decorations/skeleton_dead.png" id="27_d6nxr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
 texture = ExtResource("1_vfgmp")
@@ -259,6 +260,32 @@ tile_size = Vector2i(64, 64)
 physics_layer_0/collision_layer = 1
 sources/1 = SubResource("TileSetAtlasSource_jyhfs")
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_j8jky"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_hn0g2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ehlqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_os0q6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_rns23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_1plv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_sbf0w")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_5q0nq"]
 atlas = ExtResource("4_d6nxr")
 region = Rect2(0, 0, 16, 41)
@@ -286,32 +313,6 @@ animations = [{
 }],
 "loop": true,
 "name": &"candelabrum_small",
-"speed": 7.0
-}]
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_j8jky"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("11_hn0g2")
-}, {
-"duration": 1.0,
-"texture": ExtResource("12_ehlqo")
-}, {
-"duration": 1.0,
-"texture": ExtResource("13_os0q6")
-}, {
-"duration": 1.0,
-"texture": ExtResource("14_rns23")
-}, {
-"duration": 1.0,
-"texture": ExtResource("15_1plv4")
-}, {
-"duration": 1.0,
-"texture": ExtResource("16_sbf0w")
-}],
-"loop": true,
-"name": &"default",
 "speed": 7.0
 }]
 
@@ -353,13 +354,6 @@ position = Vector2(-663, 257)
 position = Vector2(725, 508)
 scale = Vector2(3.47368, 3.47368)
 texture = ExtResource("3_bui77")
-
-[node name="candles" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(775, 420.5)
-scale = Vector2(2.8125, 2.8125)
-sprite_frames = SubResource("SpriteFrames_dgi5k")
-animation = &"candelabrum_small"
-autoplay = "candelabrum_small"
 
 [node name="TorchSmallBg_1" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(190.005, 247.53)
@@ -438,6 +432,35 @@ position = Vector2(703, 455)
 scale = Vector2(3.07143, 3.07143)
 texture = ExtResource("22_hhvvw")
 
+[node name="TorchSmallBg_6" type="Sprite2D" parent="Environnement/imgs et anims"]
+position = Vector2(728.125, 331)
+scale = Vector2(4.01, 4.01)
+texture = ExtResource("10_eowh4")
+
+[node name="torch_small_6" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
+position = Vector2(730.125, 285)
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_j8jky")
+autoplay = "default"
+
+[node name="TorchSmallBg_7" type="Sprite2D" parent="Environnement/imgs et anims"]
+position = Vector2(1116.125, 331)
+scale = Vector2(4.01, 4.01)
+texture = ExtResource("10_eowh4")
+
+[node name="torch_small_7" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
+position = Vector2(1118.125, 285)
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_j8jky")
+autoplay = "default"
+
+[node name="candles" type="AnimatedSprite2D" parent="Environnement/imgs et anims"]
+position = Vector2(775, 420.5)
+scale = Vector2(2.8125, 2.8125)
+sprite_frames = SubResource("SpriteFrames_dgi5k")
+animation = &"candelabrum_small"
+autoplay = "candelabrum_small"
+
 [node name="chevalier" parent="." groups=["player"] instance=ExtResource("23_xrlin")]
 position = Vector2(99, 282)
 floor_max_angle = 1.213
@@ -482,5 +505,10 @@ shape = SubResource("WorldBoundaryShape2D_bui77")
 
 [node name="door" parent="." instance=ExtResource("27_bui77")]
 position = Vector2(2485, 101)
+
+[node name="SkeletonDead" type="Sprite2D" parent="."]
+position = Vector2(1117, 466)
+scale = Vector2(2.0208333, 2.0208335)
+texture = ExtResource("27_d6nxr")
 
 [connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]
