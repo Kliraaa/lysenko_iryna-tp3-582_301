@@ -2,6 +2,8 @@ extends CanvasLayer
 
 var health = 3
 var hearts_list = []
+@onready var key = $KeyHUD
+var hasKey := false
 
 func _ready():
 	var hearts_parent = $HBoxContainer
