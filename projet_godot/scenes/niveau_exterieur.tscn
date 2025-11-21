@@ -677,7 +677,7 @@ position = Vector2(2080, -64)
 scale = Vector2(-1, 1)
 
 [node name="chevalier" parent="." groups=["player"] instance=ExtResource("36_fgilv")]
-position = Vector2(-27, 296)
+position = Vector2(2608, 149)
 floor_max_angle = 1.213
 
 [node name="Camera2D" type="Camera2D" parent="chevalier"]
