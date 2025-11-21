@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=4 uid="uid://c2bbl1rf062aw"]
+[gd_scene load_steps=47 format=4 uid="uid://c2bbl1rf062aw"]
 
 [ext_resource type="Texture2D" uid="uid://btdaw857g7fg3" path="res://assets/medias/environnement/Background/layer_1.png" id="1_edfr2"]
 [ext_resource type="Texture2D" uid="uid://b1ftii3nt31cf" path="res://assets/medias/environnement/Background/layer_2.png" id="2_yl22i"]
@@ -28,6 +28,7 @@
 [ext_resource type="Texture2D" uid="uid://c2usdbm6klkkk" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_6.png" id="31_2k8v1"]
 [ext_resource type="Texture2D" uid="uid://c15nvppn5ij34" path="res://assets/medias/environnement/Decorations/door_open.png" id="33_2q7dm"]
 [ext_resource type="PackedScene" uid="uid://ltaclc5ows5o" path="res://scenes/skeleton.tscn" id="33_qu4ft"]
+[ext_resource type="PackedScene" uid="uid://dck6ejhd8oxbg" path="res://scenes/HUD_final.tscn" id="34_d5374"]
 [ext_resource type="PackedScene" uid="uid://ckxs61ocxwnig" path="res://scenes/platforme_1.tscn" id="35_sug7a"]
 [ext_resource type="PackedScene" uid="uid://cpbtahp82b2m8" path="res://scenes/chevalier.tscn" id="36_fgilv"]
 [ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="37_pshi5"]
@@ -775,5 +776,7 @@ shape = SubResource("CapsuleShape2D_pa1ag")
 
 [node name="skeleton" parent="." instance=ExtResource("33_qu4ft")]
 position = Vector2(942.1407, 1038.783)
+
+[node name="CanvasLayer" parent="." instance=ExtResource("34_d5374")]
 
 [connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]

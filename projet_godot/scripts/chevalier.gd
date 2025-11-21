@@ -10,14 +10,7 @@ const JUMP_VELOCITY = -550.0
 
 
 var taking_damage = false
-var hearts_list : Array[TextureRect]
 var health = 3
-
-func _ready() -> void:
-	var hearts_parent = $CanvasLayer/HBoxContainer
-	for child in hearts_parent.get_children():
-		hearts_list.append(child)
-	print(hearts_list)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -74,13 +67,9 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 
-func take_damage(): 
+func take_damage():
 	if health > 0:
 		health -= 1
-		update_heart_display()
-	taking_damage = true
-	death_sfx.play()
-
-func update_heart_display():
-	for i in range(hearts_list.size()):
-		hearts_list[i].visible = i < health
+		get_tree().current_scene.get_node("CanvasLayer").update_hearts(health)
+		taking_damage = true
+		death_sfx.play()

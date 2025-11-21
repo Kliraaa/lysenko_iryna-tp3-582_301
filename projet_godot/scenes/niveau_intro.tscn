@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://dw3kbj3th7k65"]
+[gd_scene load_steps=33 format=4 uid="uid://dw3kbj3th7k65"]
 
 [ext_resource type="Texture2D" uid="uid://ovu87keidabw" path="res://assets/medias/environnement/main_tileset_4x.png" id="1_vfgmp"]
 [ext_resource type="PackedScene" uid="uid://b1ck4v5rnkiws" path="res://scenes/epee.tscn" id="2_y73jn"]
@@ -22,8 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://bqcd0xg6ftmpt" path="res://assets/medias/environnement/Decorations/curtain_blue_1.png" id="20_sei2p"]
 [ext_resource type="Texture2D" uid="uid://b3pmftdgsk7hy" path="res://assets/medias/environnement/Decorations/books.png" id="22_hhvvw"]
 [ext_resource type="PackedScene" uid="uid://cpbtahp82b2m8" path="res://scenes/chevalier.tscn" id="23_xrlin"]
-[ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="24_atche"]
-[ext_resource type="PackedScene" uid="uid://cqfjewwe1ylh1" path="res://scenes/pause_menu.tscn" id="25_agyiu"]
+[ext_resource type="PackedScene" uid="uid://dck6ejhd8oxbg" path="res://scenes/HUD_final.tscn" id="26_bui77"]
 [ext_resource type="PackedScene" uid="uid://bxvfyw0hy5ln8" path="res://scenes/killzone.tscn" id="26_y73jn"]
 [ext_resource type="PackedScene" uid="uid://bkdc68ocspni6" path="res://scenes/door_1to2.tscn" id="27_bui77"]
 [ext_resource type="Texture2D" uid="uid://bj3174xvf5eip" path="res://assets/medias/environnement/Decorations/skeleton_dead.png" id="27_d6nxr"]
@@ -316,20 +315,6 @@ animations = [{
 "speed": 7.0
 }]
 
-[sub_resource type="GDScript" id="GDScript_5he1u"]
-script/source = "extends Button
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta: float) -> void:
-	pass
-"
-
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_bui77"]
 distance = 8.771927
 
@@ -474,27 +459,6 @@ limit_right = 2813
 limit_bottom = 935
 position_smoothing_enabled = true
 
-[node name="CanvasLayer" type="CanvasLayer" parent="chevalier/Camera2D"]
-visible = false
-
-[node name="HUD" type="Node2D" parent="chevalier/Camera2D/CanvasLayer"]
-visible = false
-position = Vector2(1141, 14)
-script = ExtResource("24_atche")
-
-[node name="Menu" type="Button" parent="chevalier/Camera2D/CanvasLayer/HUD"]
-visible = false
-offset_left = -58.0
-offset_right = 8.0
-offset_bottom = 29.0
-text = "Menu"
-script = SubResource("GDScript_5he1u")
-
-[node name="PauseMenu" parent="chevalier/Camera2D/CanvasLayer/HUD" instance=ExtResource("25_agyiu")]
-visible = false
-offset_left = -1134.0
-offset_right = -58.0
-
 [node name="Killzone" parent="." instance=ExtResource("26_y73jn")]
 position = Vector2(1469, 765)
 collision_layer = 2
@@ -513,4 +477,4 @@ position = Vector2(1117, 466)
 scale = Vector2(2.0208333, 2.0208335)
 texture = ExtResource("27_d6nxr")
 
-[connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]
+[node name="CanvasLayer" parent="." instance=ExtResource("26_bui77")]
