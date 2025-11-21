@@ -677,6 +677,11 @@ position = Vector2(-66, 70)
 scale = Vector2(3.4769738, 3.4769738)
 texture = ExtResource("16_ak274")
 
+[node name="BushBrown3" type="Sprite2D" parent="Environnement/imgs et anims"]
+position = Vector2(2525.3901, 461.0646)
+scale = Vector2(2.0703187, 2.0703187)
+texture = ExtResource("15_pc4gf")
+
 [node name="ref-img" type="Sprite2D" parent="Environnement"]
 visible = false
 modulate = Color(1, 1, 1, 0.6666667)
@@ -769,6 +774,6 @@ position = Vector2(-49.598145, 17.812103)
 shape = SubResource("CapsuleShape2D_pa1ag")
 
 [node name="skeleton" parent="." instance=ExtResource("33_qu4ft")]
-position = Vector2(770.9537, 413.6908)
+position = Vector2(942.1407, 1038.783)
 
 [connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]
