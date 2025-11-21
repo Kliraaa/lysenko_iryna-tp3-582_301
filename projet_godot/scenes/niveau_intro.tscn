@@ -326,7 +326,7 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 "
 
@@ -475,8 +475,10 @@ limit_bottom = 935
 position_smoothing_enabled = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="chevalier/Camera2D"]
+visible = false
 
 [node name="HUD" type="Node2D" parent="chevalier/Camera2D/CanvasLayer"]
+visible = false
 position = Vector2(1141, 14)
 script = ExtResource("24_atche")
 

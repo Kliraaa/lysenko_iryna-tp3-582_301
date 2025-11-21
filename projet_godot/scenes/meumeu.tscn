@@ -37,6 +37,7 @@ offset_left = 492.0
 offset_top = 349.0
 offset_right = 676.0
 offset_bottom = 439.0
+alignment = 1
 
 [node name="commencer" type="Button" parent="Panel/VBoxContainer"]
 layout_mode = 2

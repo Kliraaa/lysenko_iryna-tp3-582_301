@@ -20,6 +20,7 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
 		audio_stream_player_2d.stop()
+		
 
 	# Get the input direction
 	var direction := Input.get_axis("move-left", "move-right")
@@ -68,4 +69,3 @@ func _physics_process(delta: float) -> void:
 func take_damage(): 
 	taking_damage = true
 	death_sfx.play()
-	pass

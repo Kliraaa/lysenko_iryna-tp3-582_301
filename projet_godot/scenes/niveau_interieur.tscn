@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=4 uid="uid://bcn2kn4i6dfja"]
+[gd_scene load_steps=47 format=4 uid="uid://bcn2kn4i6dfja"]
 
 [ext_resource type="Texture2D" uid="uid://b1ftii3nt31cf" path="res://assets/medias/environnement/Background/layer_2.png" id="1_og1vs"]
 [ext_resource type="Texture2D" uid="uid://btdaw857g7fg3" path="res://assets/medias/environnement/Background/layer_1.png" id="1_vxglm"]
@@ -31,7 +31,6 @@
 [ext_resource type="Texture2D" uid="uid://cd7nc4c1cvy7u" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_4.png" id="30_pibwh"]
 [ext_resource type="Texture2D" uid="uid://bhwcf1c7tt4xy" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_5.png" id="31_c6pm6"]
 [ext_resource type="Texture2D" uid="uid://cy3ykhsm4xca3" path="res://assets/medias/environnement/Decorations/Animated Decorations/candelabrum_tall/candelabrum_tall_6.png" id="32_5he1u"]
-[ext_resource type="Texture2D" uid="uid://des7w6q7rpy1x" path="res://assets/medias/environnement/Decorations/door.png" id="33_fuf3a"]
 [ext_resource type="PackedScene" uid="uid://ckxs61ocxwnig" path="res://scenes/platforme_1.tscn" id="34_fuf3a"]
 [ext_resource type="PackedScene" uid="uid://dtl186gnjtjmg" path="res://scenes/door_2to3.tscn" id="38_5mecp"]
 [ext_resource type="Script" uid="uid://b30s8nhetk7ua" path="res://scripts/button.gd" id="38_c6pm6"]
@@ -504,11 +503,6 @@ scale = Vector2(3.6875, 3.6875)
 sprite_frames = SubResource("SpriteFrames_5poiv")
 autoplay = "default"
 frame_progress = 0.58066
-
-[node name="Door" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(3681.0002, 174.497)
-scale = Vector2(3.7622, 3.7622)
-texture = ExtResource("33_fuf3a")
 
 [node name="DoorOpen" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(-64, 305)

@@ -25,5 +25,5 @@ func _on_restart_pressed() -> void:
 func _on_controls_pressed() -> void:
 	pass # Replace with function body.
 
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	testEsc()
