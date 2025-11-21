@@ -10,7 +10,6 @@ const JUMP_VELOCITY = -550.0
 
 
 var taking_damage = false
-var health = 3
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -68,8 +67,10 @@ func _physics_process(delta: float) -> void:
 
 
 func take_damage():
-	if health > 0:
-		health -= 1
-		get_tree().current_scene.get_node("CanvasLayer").update_hearts(health)
-		taking_damage = true
-		death_sfx.play()
+	var hud = get_tree().current_scene.get_node("CanvasLayer")
+	if hud.health > 0:
+		hud.health -= 1
+		hud.update_hearts(hud.health)
+		
+	taking_damage = true
+	death_sfx.play()

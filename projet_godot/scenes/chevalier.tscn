@@ -1,4 +1,4 @@
-[gd_scene load_steps=46 format=3 uid="uid://cpbtahp82b2m8"]
+[gd_scene load_steps=45 format=3 uid="uid://cpbtahp82b2m8"]
 
 [ext_resource type="Script" uid="uid://naq8pkk1v81c" path="res://scripts/chevalier.gd" id="1_l4g0p"]
 [ext_resource type="Texture2D" uid="uid://3fl8l3m3ali8" path="res://assets/medias/personnages/knight/_Idle.png" id="1_x5vee"]
@@ -8,7 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://byavqxydgkfa0" path="res://assets/medias/personnages/knight/_Fall.png" id="5_sk0jy"]
 [ext_resource type="AudioStream" uid="uid://b8e8ijiginiwc" path="res://assets/audio/sfx-footsteps-run-short.mp3" id="6_1dora"]
 [ext_resource type="AudioStream" uid="uid://dajt61o60l3u7" path="res://assets/audio/male-death-sound.mp3" id="8_kikqj"]
-[ext_resource type="PackedScene" uid="uid://dck6ejhd8oxbg" path="res://scenes/HUD_final.tscn" id="9_sokty"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rb2oc"]
 atlas = ExtResource("2_2w8sg")
@@ -305,5 +304,3 @@ parameters/looping = true
 stream = ExtResource("8_kikqj")
 volume_db = -1.904
 bus = &"SFX"
-
-[node name="CanvasLayer" parent="." instance=ExtResource("9_sokty")]
