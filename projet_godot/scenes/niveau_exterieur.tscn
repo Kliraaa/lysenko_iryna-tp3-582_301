@@ -769,7 +769,6 @@ position = Vector2(-49.598145, 17.812103)
 shape = SubResource("CapsuleShape2D_pa1ag")
 
 [node name="skeleton" parent="." instance=ExtResource("33_qu4ft")]
-visible = false
 position = Vector2(770.9537, 413.6908)
 
 [connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]
