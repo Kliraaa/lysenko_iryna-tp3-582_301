@@ -31,8 +31,8 @@ height = 194.0
 script = ExtResource("1_g5lyo")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(55.250008, 79.50612)
-scale = Vector2(3.6951225, 3.6951227)
+position = Vector2(55.25, 79.5061)
+scale = Vector2(3.69512, 3.69512)
 sprite_frames = SubResource("SpriteFrames_xed16")
 animation = &"open"
 autoplay = "open"

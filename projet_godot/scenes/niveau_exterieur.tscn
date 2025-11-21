@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=4 uid="uid://c2bbl1rf062aw"]
+[gd_scene load_steps=41 format=4 uid="uid://c2bbl1rf062aw"]
 
 [ext_resource type="Texture2D" uid="uid://btdaw857g7fg3" path="res://assets/medias/environnement/Background/layer_1.png" id="1_edfr2"]
 [ext_resource type="Texture2D" uid="uid://b1ftii3nt31cf" path="res://assets/medias/environnement/Background/layer_2.png" id="2_yl22i"]
@@ -20,12 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://0ljxjsrpbktd" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_5.png" id="19_l7a3d"]
 [ext_resource type="Texture2D" uid="uid://c1sjlbgtj5kpr" path="res://assets/medias/environnement/Decorations/Animated Decorations/torch_small/torch_small_6.png" id="20_e6ln0"]
 [ext_resource type="Texture2D" uid="uid://d3ltfvpfte5xq" path="res://assets/medias/environnement/Graveyard/Salt.png" id="21_2sniu"]
-[ext_resource type="Texture2D" uid="uid://x84ayy0knvkw" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_1.png" id="26_b2v08"]
-[ext_resource type="Texture2D" uid="uid://b74kuwnijxui" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_2.png" id="27_o1h1r"]
-[ext_resource type="Texture2D" uid="uid://depcqprj33heu" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_3.png" id="28_qu4ft"]
-[ext_resource type="Texture2D" uid="uid://mli3jn8arkdh" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_4.png" id="29_d5374"]
-[ext_resource type="Texture2D" uid="uid://ba43n1baa13ll" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_5.png" id="30_xblso"]
-[ext_resource type="Texture2D" uid="uid://c2usdbm6klkkk" path="res://assets/medias/personnages/brown-knight/idle/idle_knight_6.png" id="31_2k8v1"]
+[ext_resource type="PackedScene" uid="uid://b8q26lyyefj3q" path="res://scenes/mob_knight.tscn" id="30_up7b1"]
 [ext_resource type="Texture2D" uid="uid://c15nvppn5ij34" path="res://assets/medias/environnement/Decorations/door_open.png" id="33_2q7dm"]
 [ext_resource type="PackedScene" uid="uid://ltaclc5ows5o" path="res://scenes/skeleton.tscn" id="33_qu4ft"]
 [ext_resource type="PackedScene" uid="uid://dck6ejhd8oxbg" path="res://scenes/HUD_final.tscn" id="34_d5374"]
@@ -292,10 +287,10 @@ texture_region_size = Vector2i(24, 24)
 16:2/0 = 0
 10:9/size_in_atlas = Vector2i(5, 5)
 10:9/0 = 0
-10:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(59.2, -59.2, -62.4, 4.8, -62.4, 59.200005, 59.2, 59.200005)
+10:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(59.2, -59.2, -62.4, 4.8, -62.4, 59.2, 59.2, 59.2)
 15:9/size_in_atlas = Vector2i(5, 5)
 15:9/0 = 0
-15:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-59.2, -59.2, 62.4, 4.8, 62.4, 59.200005, -59.2, 59.200005)
+15:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(-59.2, -59.2, 62.4, 4.8, 62.4, 59.2, -59.2, 59.2)
 12:14/size_in_atlas = Vector2i(5, 5)
 12:14/0 = 0
 12:19/size_in_atlas = Vector2i(5, 5)
@@ -334,36 +329,36 @@ texture_region_size = Vector2i(24, 24)
 0:8/0 = 0
 0:10/size_in_atlas = Vector2i(2, 2)
 0:10/0 = 0
-0:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-17.206055, -24.215939, 23.897308, -24.215939, 23.26004, 23.897308, -19.436478, 23.897308, -15.931534, 11.470711)
+0:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-17.2061, -24.2159, 23.8973, -24.2159, 23.26, 23.8973, -19.4365, 23.8973, -15.9315, 11.4707)
 2:10/size_in_atlas = Vector2i(1, 2)
 2:10/0 = 0
 2:5/size_in_atlas = Vector2i(2, 3)
 2:5/0 = 0
-2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(23.578674, -35.36801, -15.6129, -35.686646, -24.215942, -25.49046, -24.534561, 36.00528, 23.578674, 35.686646)
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(23.5787, -35.368, -15.6129, -35.6866, -24.2159, -25.4905, -24.5346, 36.0053, 23.5787, 35.6866)
 6:5/size_in_atlas = Vector2i(2, 3)
 6:5/0 = 0
-6:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-23.578674, -35.36801, 15.6129, -35.686646, 24.215942, -25.49046, 24.534561, 36.00528, -23.578674, 35.686646)
+6:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-23.5787, -35.368, 15.6129, -35.6866, 24.2159, -25.4905, 24.5346, 36.0053, -23.5787, 35.6866)
 8:5/size_in_atlas = Vector2i(2, 3)
 8:5/0 = 0
 8:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-24, -12, 12, -12, 20, 36, -24, 36)
 4:5/size_in_atlas = Vector2i(2, 3)
 4:5/0 = 0
-4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-23.578674, -35.36801, 15.6129, -35.686646, 24.215942, -25.49046, 24.534561, 36.00528, -23.578674, 35.686646)
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-23.5787, -35.368, 15.6129, -35.6866, 24.2159, -25.4905, 24.5346, 36.0053, -23.5787, 35.6866)
 8:8/size_in_atlas = Vector2i(2, 2)
 8:8/0 = 0
 8:10/size_in_atlas = Vector2i(2, 2)
 8:10/0 = 0
-8:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(17.206055, -24.215939, -23.897308, -24.215939, -23.26004, 23.897308, 19.436478, 23.897308, 15.931534, 11.470711)
+8:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(17.2061, -24.2159, -23.8973, -24.2159, -23.26, 23.8973, 19.4365, 23.8973, 15.9315, 11.4707)
 7:10/size_in_atlas = Vector2i(1, 2)
 7:10/0 = 0
 2:12/size_in_atlas = Vector2i(2, 2)
 2:12/0 = 0
-2:12/0/physics_layer_0/polygon_0/points = PackedVector2Array(-17.206055, -24.215939, 23.897308, -24.215939, 23.26004, 23.897308, -19.436478, 23.897308, -15.931534, 11.470711)
+2:12/0/physics_layer_0/polygon_0/points = PackedVector2Array(-17.2061, -24.2159, 23.8973, -24.2159, 23.26, 23.8973, -19.4365, 23.8973, -15.9315, 11.4707)
 4:12/size_in_atlas = Vector2i(2, 2)
 4:12/0 = 0
 6:12/size_in_atlas = Vector2i(2, 2)
 6:12/0 = 0
-6:12/0/physics_layer_0/polygon_0/points = PackedVector2Array(17.206055, -24.215939, -23.897308, -24.215939, -23.26004, 23.897308, 19.436478, 23.897308, 15.931534, 11.470711)
+6:12/0/physics_layer_0/polygon_0/points = PackedVector2Array(17.2061, -24.2159, -23.8973, -24.2159, -23.26, 23.8973, 19.4365, 23.8973, 15.9315, 11.4707)
 2:8/size_in_atlas = Vector2i(2, 2)
 2:8/0 = 0
 4:8/size_in_atlas = Vector2i(2, 2)
@@ -503,36 +498,6 @@ distance = 2.0
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5he1u"]
 size = Vector2(602.344, 33.3333)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_cf7no"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": ExtResource("26_b2v08")
-}, {
-"duration": 1.0,
-"texture": ExtResource("27_o1h1r")
-}, {
-"duration": 1.0,
-"texture": ExtResource("28_qu4ft")
-}, {
-"duration": 1.0,
-"texture": ExtResource("29_d5374")
-}, {
-"duration": 1.0,
-"texture": ExtResource("30_xblso")
-}, {
-"duration": 1.0,
-"texture": ExtResource("31_2k8v1")
-}],
-"loop": true,
-"name": &"iddle",
-"speed": 7.0
-}]
-
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_pa1ag"]
-radius = 101.29199
-height = 204.8418
-
 [node name="niveau_interieur" type="Node2D"]
 
 [node name="Environnement" type="Node2D" parent="."]
@@ -541,7 +506,7 @@ height = 204.8418
 position = Vector2(-151, 716)
 
 [node name="moon1" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(90.00012, -669)
+position = Vector2(90.0001, -669)
 scale = Vector2(3.70833, 3.70833)
 texture = ExtResource("1_edfr2")
 
@@ -551,13 +516,13 @@ scale = Vector2(3.70833, 3.70833)
 texture = ExtResource("1_edfr2")
 
 [node name="moon3" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(2453, -669.00006)
+position = Vector2(2453, -669)
 scale = Vector2(-3.708, 3.708)
 texture = ExtResource("1_edfr2")
 
 [node name="moon4" type="Sprite2D" parent="Environnement/bg-img"]
 position = Vector2(3639, -669)
-rotation = 3.1415927
+rotation = 3.14159
 scale = Vector2(3.708, -3.708)
 texture = ExtResource("1_edfr2")
 
@@ -577,32 +542,32 @@ scale = Vector2(2.92748, 2.92748)
 texture = ExtResource("2_yl22i")
 
 [node name="GrassNoTree1" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(449, -462.99994)
-scale = Vector2(1.4573864, 1.4573863)
+position = Vector2(449, -463)
+scale = Vector2(1.45739, 1.45739)
 texture = ExtResource("3_ak274")
 
 [node name="GrassNoTree2" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(962, -462.99994)
-scale = Vector2(1.4573864, 1.4573863)
+position = Vector2(962, -463)
+scale = Vector2(1.45739, 1.45739)
 texture = ExtResource("3_ak274")
 
 [node name="GrassTree1" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(1487.6067, -463.6637)
-scale = Vector2(1.536177, 1.5361768)
+position = Vector2(1487.61, -463.664)
+scale = Vector2(1.53618, 1.53618)
 texture = ExtResource("4_mni4g")
 
 [node name="church_bg" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(2827.856, -623.7249)
+position = Vector2(2827.86, -623.725)
 texture = ExtResource("5_tlv6i")
 
 [node name="GrassTree2" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(2540.6333, -464.9297)
-scale = Vector2(1.536177, 1.5361768)
+position = Vector2(2540.63, -464.93)
+scale = Vector2(1.53618, 1.53618)
 texture = ExtResource("4_mni4g")
 
 [node name="GrassNoTree3" type="Sprite2D" parent="Environnement/bg-img"]
-position = Vector2(2014, -462.99994)
-scale = Vector2(1.4573864, 1.4573863)
+position = Vector2(2014, -463)
+scale = Vector2(1.45739, 1.45739)
 texture = ExtResource("3_ak274")
 
 [node name="Arirere plan" type="TileMapLayer" parent="Environnement"]
@@ -653,42 +618,42 @@ sprite_frames = SubResource("SpriteFrames_j8jky")
 autoplay = "default"
 
 [node name="BushBrown" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(265.10657, 628.03955)
-scale = Vector2(2.0703187, 2.0703187)
+position = Vector2(265.107, 628.04)
+scale = Vector2(2.07032, 2.07032)
 texture = ExtResource("15_pc4gf")
 
 [node name="BushYellow" type="Sprite2D" parent="Environnement/imgs et anims"]
-modulate = Color(0.7232274, 0.7232274, 0.7232274, 1)
-position = Vector2(1219.3424, 616.78204)
-scale = Vector2(1.8290281, 1.8290279)
+modulate = Color(0.723227, 0.723227, 0.723227, 1)
+position = Vector2(1219.34, 616.782)
+scale = Vector2(1.82903, 1.82903)
 texture = ExtResource("16_tlv6i")
 
 [node name="BushYellow2" type="Sprite2D" parent="Environnement/imgs et anims"]
-modulate = Color(0.7232274, 0.7232274, 0.7232274, 1)
-position = Vector2(1757.2529, 558.80365)
-scale = Vector2(1.8290281, 1.8290279)
+modulate = Color(0.723227, 0.723227, 0.723227, 1)
+position = Vector2(1757.25, 558.804)
+scale = Vector2(1.82903, 1.82903)
 texture = ExtResource("16_tlv6i")
 
 [node name="BushBrown2" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(-314.0294, 612.98126)
-scale = Vector2(2.3840327, 2.3840327)
+position = Vector2(-314.029, 612.981)
+scale = Vector2(2.38403, 2.38403)
 texture = ExtResource("15_pc4gf")
 
 [node name="FlagBlue" type="Sprite2D" parent="Environnement/imgs et anims"]
 position = Vector2(-66, 70)
-scale = Vector2(3.4769738, 3.4769738)
+scale = Vector2(3.47697, 3.47697)
 texture = ExtResource("16_ak274")
 
 [node name="BushBrown3" type="Sprite2D" parent="Environnement/imgs et anims"]
-position = Vector2(2525.3901, 461.0646)
-scale = Vector2(2.0703187, 2.0703187)
+position = Vector2(2525.39, 461.065)
+scale = Vector2(2.07032, 2.07032)
 texture = ExtResource("15_pc4gf")
 
 [node name="ref-img" type="Sprite2D" parent="Environnement"]
 visible = false
-modulate = Color(1, 1, 1, 0.6666667)
-position = Vector2(789.00006, 217.00002)
-scale = Vector2(0.40927815, 0.40927833)
+modulate = Color(1, 1, 1, 0.666667)
+position = Vector2(789, 217)
+scale = Vector2(0.409278, 0.409278)
 texture = ExtResource("18_b8who")
 
 [node name="platformes" type="Node" parent="Environnement"]
@@ -712,7 +677,7 @@ position = Vector2(2080, -64)
 scale = Vector2(-1, 1)
 
 [node name="chevalier" parent="." groups=["player"] instance=ExtResource("36_fgilv")]
-position = Vector2(-58.08673, 319.72504)
+position = Vector2(2608, 149)
 floor_max_angle = 1.213
 
 [node name="Camera2D" type="Camera2D" parent="chevalier"]
@@ -759,24 +724,8 @@ position = Vector2(54, 347)
 scale = Vector2(1.28, 2.28)
 shape = SubResource("RectangleShape2D_5he1u")
 
-[node name="dark_knight" type="CharacterBody2D" parent="."]
-position = Vector2(2799.4788, 135.71637)
-metadata/_edit_group_ = true
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="dark_knight"]
-position = Vector2(-3.2685547, -11.8714905)
-scale = Vector2(-3.4653785, 3.4653785)
-sprite_frames = SubResource("SpriteFrames_cf7no")
-animation = &"iddle"
-autoplay = "iddle"
-frame_progress = 0.060261536
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="dark_knight"]
-position = Vector2(-49.598145, 17.812103)
-shape = SubResource("CapsuleShape2D_pa1ag")
-
 [node name="skeleton" parent="." instance=ExtResource("33_qu4ft")]
-position = Vector2(942.1407, 1038.783)
+position = Vector2(942.141, 1038.78)
 
 [node name="CanvasLayer" parent="." instance=ExtResource("34_d5374")]
 
@@ -784,5 +733,8 @@ position = Vector2(942.1407, 1038.783)
 stream = ExtResource("35_xblso")
 autoplay = true
 bus = &"Bg-music"
+
+[node name="mob_knight" parent="." instance=ExtResource("30_up7b1")]
+position = Vector2(2811, 148)
 
 [connection signal="pressed" from="chevalier/Camera2D/CanvasLayer/HUD/Menu" to="chevalier/Camera2D/CanvasLayer/HUD/PauseMenu" method="_on_menu_pressed"]
