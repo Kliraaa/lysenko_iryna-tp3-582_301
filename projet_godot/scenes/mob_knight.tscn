@@ -87,4 +87,5 @@ metadata/_edit_use_anchors_ = true
 wait_time = 15.0
 one_shot = true
 
+[connection signal="body_entered" from="." to="." method="show_message"]
 [connection signal="body_exited" from="." to="." method="hide_message"]
